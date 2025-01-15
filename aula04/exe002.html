@@ -38,9 +38,12 @@
         </div>
     </main>
     <script>
-        window.alert('Minha primeira mensagem!') //exibe um mensagem.
-        window.confirm('Está gostando de JS?') // exibe uma janela com botão ok ou cancelar.
-        window.prompt('Qual é o seu nome?') // exibe uma janela com área para inserção de texto.
+      var n1 = Number(window.prompt('Digite um valor'))
+      var n2 = Number(window.prompt('Digite mais um valor'))
+      var s = n1 + n2 
+      window.alert('A soma dos valores é de '+ String(s) + '!' + typeof s)
+      
+      
         
     </script>
 </body>
